@@ -1,0 +1,56 @@
+{
+  "name": "bear-library",
+  "version": "0.0.1",
+  "description": "Бляблятека",
+  "author": {
+    "name": "Медвед",
+    "email": "preved@vedmed.ru",
+    "url": "http://книжки.рф"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git.amediko.ru/amediko/monitoring-client"
+  },
+  "license": "ISC",
+  "main": "webpack.config.js",
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rimraf build",
+    "prepublish": "NODE_ENV=production webpack",
+    "lint": "tslint src/**/*.ts",
+    "start": "webpack-dev-server --progress",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "tslint": "4.5.1",
+    "uglifyjs-webpack-plugin": "1.1.4",
+    "webpack-bundle-analyzer": "2.9.1",
+    "webpack-dev-server": "2.4.5"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-decorators": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "15.6.7",
+    "@types/react-dom": "0.14.23",
+    "@types/react-router": "4.0.11",
+    "apollo-boost": "^0.1.22",
+    "babel-loader": "^8.0.4",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "html-webpack-plugin": "2.29.0",
+    "json-loader": "0.5.4",
+    "react": "15.6.2",
+    "react-dom": "15.6.2",
+    "react-mvx": "^2.0.4",
+    "react-router-dom": "4.1.1",
+    "source-map-loader": "^0.2.4",
+    "type-r": "^2.1.8",
+    "typescript": "2.8.4",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "webpack": "3.10.0",
+    "webpack-archive-plugin": "3.0.0"
+  }
+}

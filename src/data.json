@@ -1,0 +1,40 @@
+{
+    "authors": [
+        { "id": 1, "lastname": "Акунин", "firstname": "Акунин", "biography": "В душе поэт" },
+        { "id": 2, "lastname": "Мазин", "firstname": "Александр", "biography": "Ни разу не историк" }
+    ],
+    "books": [
+        { "id": 1, "author": 1, "title": "Ореховый Будда", "pubdate": "2018-01-09", "description": "Про будду"},
+        { "id": 2, "author": 1, "title": "Вдовий плат", "pubdate": "2016-10-11", "description": "Про вдову"},
+        { "id": 3, "author": 1, "title": "Черный город", "pubdate": "2014-10-22", "description": "Про город в черном цвете"},
+        { "id": 4, "author": 2, "title": "Богатырь", "pubdate": "2001-10-10", "description": "Бред сив оф кайбл"},
+        { "id": 5, "author": 2, "title": "Государь", "pubdate": "2003-08-09", "description": "Про царя"},
+        { "id": 6, "author": 2, "title": "Княжья Русь", "pubdate": "2005-05-14", "description": "Шиза"},
+        { "id": 7, "author": 2, "title": "Язычник", "pubdate": "2007-01-28", "description": "Религия - опиум для народа!"}
+    ],
+    "comments": [
+        { "id": 1,  "title": "Первый", "comment": "тут1" },
+        { "id": 2,  "title": "Второй", "comment": "тут2" },
+        { "id": 3,  "title": "Третий", "comment": "тут3" },
+        { "id": 4,  "title": "Четвертый", "comment": "тут4" },
+        { "id": 5,  "title": "Пятый", "comment": "тут5" },
+        { "id": 6,  "title": "Шестой", "comment": "тут6" },
+        { "id": 7,  "title": "Седьмой", "comment": "тут7" },
+        { "id": 8,  "title": "Восьмой", "comment": "тут8" },
+        { "id": 9,  "title": "Девятый", "comment": "тут9" },
+        { "id": 10, "title": "Десятый", "comment": "тут10" },
+        { "id": 11, "title": "11", "comment": "тут11" },
+        { "id": 12, "title": "12", "comment": "тут12" },
+        { "id": 13, "title": "13", "comment": "тут13" },
+        { "id": 14, "title": "14", "comment": "тут14" },
+        { "id": 15, "title": "15", "comment": "тут15" },
+        { "id": 16, "title": "16", "comment": "тут16" },
+        { "id": 17, "title": "17", "comment": "тут17" },
+        { "id": 18, "title": "18", "comment": "тут18" },
+        { "id": 19, "title": "19", "comment": "тут19" },
+        { "id": 20, "title": "20", "comment": "тут20" },
+        { "id": 21, "title": "21", "comment": "тут21" },
+        { "id": 22, "title": "22", "comment": "тут22" },
+        { "id": 23, "title": "23", "comment": "тут23" }
+        ]
+}
